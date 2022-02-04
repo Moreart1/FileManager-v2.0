@@ -1,12 +1,14 @@
-﻿using System;
+﻿using FileManager_v2._0;
 
-namespace FileManager_v2._0
+namespace FileManagerV2._0
 {
     class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            MainJob fm = new MainJob();
+            fm.Start();
+            
         }
     }
 }

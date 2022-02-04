@@ -6,4 +6,8 @@
     <RootNamespace>FileManager_v2._0</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="System.Configuration.ConfigurationManager" Version="6.0.0" />
+  </ItemGroup>
+
 </Project>
