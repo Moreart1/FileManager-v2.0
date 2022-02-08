@@ -6,8 +6,7 @@ namespace FileManagerV2._0
     {
         static void Main(string[] args)
         {
-            MainJob fm = new MainJob();
-            fm.Start();
+            new MainJob().Start();
             
         }
     }
