@@ -120,8 +120,7 @@ namespace FileManager_v2._0
         {           
             PrintFileInfo();
             UpgradeDirectoryList();
-            Console.SetCursorPosition(0, 0);
-            
+            Console.SetCursorPosition(0, 0);         
             Console.WriteLine(info);
             Console.SetCursorPosition(fileLeft, 0);
             Console.Write(Path);
@@ -266,6 +265,10 @@ namespace FileManager_v2._0
             return Path;
         }
 
+        /// <summary>
+        /// Переход к папкам и файлам
+        /// </summary>
+        /// <param name="index"></param>
         public void Choose(int index)
         {
             
